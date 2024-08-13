@@ -97,7 +97,10 @@ class Dashboard extends React.Component<{}, IDashboardState> {
 
     return (
       <div className="dashboard">
-        <h1>Saved Dashboards</h1>
+        <div className="table-header">
+          <h1>Saved Reprots</h1>
+          <button className="create-button">+Create</button>
+        </div>
         <input
           type="text"
           placeholder="Search dashboards..."
